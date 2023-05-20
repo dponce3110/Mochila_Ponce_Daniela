@@ -1,0 +1,31 @@
+Cheatsheet: Comandos más usados
+
+git init: Inicializa un nuevo repositorio Git en el directorio actual.
+
+git clone URL: Clona un repositorio remoto existente en tu directorio local.
+
+git add archivo: Agrega un archivo específico al área de preparación.
+
+git add .: Agrega todos los archivos modificados y nuevos al área de preparación.
+
+git commit -m "Mensaje": Crea un nuevo commit con los cambios agregados en el área de preparación y proporciona un mensaje descriptivo.
+
+git status: Muestra el estado actual del repositorio, incluyendo los archivos modificados, agregados o eliminados.
+
+git push origin nombre_de_la_rama: Sube los commits locales al repositorio remoto en la rama especificada.
+
+git pull origin nombre_de_la_rama: Obtiene los últimos cambios del repositorio remoto en la rama especificada y los fusiona con tu rama local.
+
+git branch: Muestra una lista de todas las ramas en el repositorio y resalta la rama actual.
+
+git checkout nombre_de_la_rama: Cambia a la rama especificada.
+
+git merge nombre_de_la_rama: Fusiona los cambios de la rama especificada con la rama actual.
+
+git remote -v: Muestra los repositorios remotos configurados.
+
+git log: Muestra un registro de commits en orden cronológico.
+
+git diff: Muestra las diferencias entre el directorio de trabajo y el área de preparación.
+
+git reset HEAD archivo: Retira un archivo específico del área de preparación.
